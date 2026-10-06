@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Sunday, May 17, 2026 8:31:42 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+﻿  File "D:\Learning\iti\CoursesDoc\GIS\Course10_ArcPY\Course Codes\Section 10 (Using Mapping Module)\Layout_Elements.py", line 40, in &lt;module&gt;
+    overviewMapFrame.camera.setExtent(countryLayer.getExtent())
+                                      ^^^^^^^^^^^^^^^^^^^^^^
+﻿AttributeError: 'Layer' object has no attribute 'getExtent'
+﻿</msg><msg code="0" type="0">Failed script Layout_Set_Elements...</msg><msg code="-2147467259" type="100">Failed to execute (layoutElementSetting).</msg><msg code="0" type="3">Failed at Sunday, May 17, 2026 8:31:46 PM (Elapsed Time: 4.16 seconds)</msg></messages>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, May 15, 2026 11:36:01 AM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+﻿  File "D:\Learning\iti\CoursesDoc\GIS\Course10_ArcPY\Course Codes\Section 10 (Using Mapping Module)\Mapping1.py", line 8, in &lt;module&gt;
+    arcpy.AddMessage([map[0].name for map in arpx.listMaps()])
+                      ~~~^^^
+﻿TypeError: 'Map' object is not subscriptable
+﻿</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (Test).</msg><msg code="0" type="3">Failed at Friday, May 15, 2026 11:36:02 AM (Elapsed Time: 0.09 seconds)</msg></messages>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, May 15, 2026 11:48:01 AM</msg><msg code="0" type="0">['Overview Map', 'Main_Map']</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+﻿  File "D:\Learning\iti\CoursesDoc\GIS\Course10_ArcPY\Course Codes\Section 10 (Using Mapping Module)\Mapping1.py", line 10, in &lt;module&gt;
+    map1 = arpx.listMaps("Map")[0]
+           ~~~~~~~~~~~~~~~~~~~~^^^
+﻿IndexError: list index out of range
+﻿</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (Test).</msg><msg code="0" type="3">Failed at Friday, May 15, 2026 11:48:01 AM (Elapsed Time: 0.16 seconds)</msg></messages>

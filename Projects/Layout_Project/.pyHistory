@@ -1,0 +1,11 @@
+﻿arpx = arcpy.mp.ArcGISProject("CURRENT")
+map1=arpx.listMaps("Map")[0]
+map1.addLayer(r"D:\Learning\iti\CoursesDoc\GIS\Course10_ArcPY\LPA\Data\ne_10m_admin_0_countries.shp","TOP")
+CountriesSource = r"D:\Learning\iti\CoursesDoc\GIS\Course10_ArcPY\LPA\Data\ne_10m_admin_0_countries.shp"
+map1.addLayer(CountriesSource, 'TOP')
+map1.addDataFromPath(Co)
+map1.addDataFromPath(CountriesSource)
+CountryLayer = map1.addDataFromPath(CountriesSource)
+CountryLayer.name("Countries")
+CountryLayer.name = "Countries"
+CountryLayer.definitionQuery = "NAME = 'Iraq'"

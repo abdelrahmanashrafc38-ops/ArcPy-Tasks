@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, April 22, 2026 11:26:45 PM</msg><msg code="0" type="1">Executing (Calculate Value): CalculateValue rand_buffer_size(8,4) "def rand_buffer_size(max,min):
+    from random import randint
+    randInt = randint(min,max)
+    bufSizeKm = randInt * 100
+    return "{0} kilometers".format(bufSizeKm)
+
+    " GPLinearUnit PYTHON3</msg><msg code="0" type="2">Start Time: Wednesday, April 22, 2026 11:26:46 PM</msg><msg code="0" type="0">Value = 600 kilometers</msg><msg code="0" type="3">Succeeded at Wednesday, April 22, 2026 11:26:46 PM (Elapsed Time: 0.00 seconds)</msg><msg code="0" type="1">Executing (Buffer): Buffer Places D:\Learning\iti\CoursesDoc\GIS\Course10_ArcPY\LPA\Data\Sample.gdb\Places_Buffer2 "600 Kilometers" FULL ROUND NONE # PLANAR</msg><msg code="0" type="2">Start Time: Wednesday, April 22, 2026 11:26:46 PM</msg><msg code="0" type="3">Succeeded at Wednesday, April 22, 2026 11:26:55 PM (Elapsed Time: 9.35 seconds)</msg><msg code="0" type="3">Succeeded at Wednesday, April 22, 2026 11:26:55 PM (Elapsed Time: 9.80 seconds)</msg></messages>

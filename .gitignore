@@ -1,0 +1,23 @@
+# Ignore Geodatabases and large GIS data files
+*.gdb/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+*.xml
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore project files if necessary (optional)
+# Projects/
+
+# Log files
+*.log
